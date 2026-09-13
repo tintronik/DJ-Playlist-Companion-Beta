@@ -2,9 +2,25 @@
 
 Alle nennenswerten Änderungen an den veröffentlichten Beta-Versionen.
 
-## [v1.0.0-beta.1] – in Vorbereitung
+## [v1.0.0-beta.2] – erste veröffentlichte Beta
 
-Erste öffentliche Beta-Version.
+**Neu: Testzeitraum statt Demo-Limit**
+
+- Die Begrenzung auf 5 Tracks bzw. 5 Gruppen ist **entfallen**.
+- Die Beta läuft **120 Tage lang ohne jede Einschränkung** (in der späteren
+  Verkaufsversion sind es 30 Tage ab dem ersten Start).
+- Nach Ablauf wechselt das Programm in den **Lese-Modus**: Sammlung ansehen,
+  Sets planen, Audioanalyse und Backups bleiben möglich – **Speichern** in der
+  Engine-DJ-Datenbank erst nach der Freischaltung. Es wird nichts gelöscht.
+- Die Sperre wird **im Backend** durchgesetzt, nicht mehr nur in der Oberfläche.
+- Lizenzanzeige zeigt „✓ PRO AKTIV", „⏳ TESTVERSION – noch N Tage" oder
+  „⚠️ TESTZEIT ABGELAUFEN"; abgelaufene Schreibversuche öffnen den Lizenzdialog.
+- Splash-Screen: Titel jetzt „DJ Playlist Companion" (vorher „ENGINE Playlist
+  COMPANION") und neutraler Begrüßungstext.
+
+## [v1.0.0-beta.1] – nicht veröffentlicht
+
+Interne Vorabversion; durch beta.2 ersetzt (enthielt noch das 5-Track-Limit).
 
 **Enthaltene Funktionen**
 
@@ -23,7 +39,7 @@ Erste öffentliche Beta-Version.
 
 **Bekannte Einschränkungen**
 
-- Demo-Limit: maximal 5 Tracks bzw. 5 Gruppen pro Aktion
+- Demo-Limit: maximal 5 Tracks bzw. 5 Gruppen pro Aktion (in beta.2 entfallen)
 - Der Kauf-Link im Lizenzdialog ist noch nicht aktiv
 - Kein Code-Signing – Windows SmartScreen warnt beim Start
 - Nur Windows 10/11 (64 Bit), nur Engine DJ

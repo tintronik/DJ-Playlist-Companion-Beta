@@ -92,13 +92,20 @@ Die genaue Testanleitung mit Checkliste steht in
 
 Details: [`DATENSCHUTZ.md`](DATENSCHUTZ.md)
 
+## ⏳ Testzeitraum
+
+- Die Beta läuft **120 Tage lang ohne jede Einschränkung** – alle Funktionen,
+  keine Track-Limits. Die Testzeit startet mit dem **ersten Programmstart**.
+- Danach wechselt das Programm in den **Lese-Modus**: Sammlung ansehen, Sets
+  planen, Audioanalyse und Backups bleiben möglich – **Speichern** in der
+  Engine-DJ-Datenbank erst nach der Freischaltung. Es wird nichts gelöscht.
+- Die Resttage siehst du jederzeit im Button **„Lizenz"** oben rechts.
+
 ## ⚠️ Bekannte Einschränkungen dieser Beta
 
-- Die Testversion ist auf **5 Tracks bzw. 5 Gruppen pro Aktion** limitiert
-  (Demo-Limit).
-- Eine **Pro-Version ohne Limit** ist in Vorbereitung. Der Kauf-Link im
-  Lizenzdialog des Programms ist **noch nicht aktiv** und führt derzeit
-  ins Leere – das ist bekannt und kein Fehler in deinem Setup.
+- Eine **Pro-Version** ist in Vorbereitung. Der Kauf-Link im Lizenzdialog des
+  Programms ist **noch nicht aktiv** und führt derzeit ins Leere – das ist
+  bekannt und kein Fehler in deinem Setup.
 - Die Beta ist **nicht digital signiert** → SmartScreen-Warnung beim Start.
 - Änderungen werden nicht mit Engine DJ abgeglichen, solange Engine DJ geöffnet
   ist: Das Programm sollte bei laufendem Engine DJ **geschlossen** bleiben.

@@ -9,8 +9,23 @@ verbunden oder von diesen freigegeben. „Engine DJ", „Engine OS" und „Denon
 sind Warenzeichen von inMusic Brands Inc.
 
 **Was kostet die Beta?**
-Die Beta ist kostenlos. Die Testversion ist auf 5 Tracks bzw. 5 Gruppen pro
-Aktion limitiert. Eine Pro-Version ohne Limit ist in Vorbereitung.
+Die Beta ist kostenlos und läuft **120 Tage lang ohne jede Einschränkung** –
+alle Funktionen, keine Track-Limits. Danach wechselt das Programm in den
+Lese-Modus (Ansehen und Analysieren bleiben möglich, Speichern erst nach
+Freischaltung). Eine Pro-Lizenz ist in Vorbereitung.
+
+**Wie funktioniert der Testzeitraum genau?**
+Die Testzeit läuft ab dem ersten Programmstart. Im Fenster
+„Lizenzverwaltung" (Button oben rechts in der Kopfzeile) siehst du jederzeit die
+verbleibenden Tage. Nach Ablauf kannst du deine Sammlung weiter ansehen, Sets
+planen und die Audioanalyse nutzen – **Speichern** in der Engine-DJ-Datenbank ist
+erst nach der Freischaltung wieder möglich. Deine Daten bleiben dabei unverändert
+erhalten, es wird nichts gelöscht.
+
+**Ich habe die Testzeit versehentlich „verbraucht" (Uhr verstellt, Neuinstallation) – was nun?**
+Melde dich über die [Discussions](https://github.com/tintronik/DJ-Playlist-Companion-Beta/discussions)
+oder ein [Issue](https://github.com/tintronik/DJ-Playlist-Companion-Beta/issues) –
+wir finden eine Lösung.
 
 **Ich sehe im Lizenzdialog einen „Vollversion kaufen"-Button – wohin führt der?**
 Noch ins Leere. Der Shop ist **noch nicht online**; das ist bekannt und kein

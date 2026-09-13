@@ -147,27 +147,39 @@ Anbieter und Lizenzgeber:
 
 ---
 
-## § 9 Besondere Bedingungen für die Beta-Testversion
+## § 9 Testzeitraum und besondere Bedingungen der Beta-Testversion
 
-(1) Die Beta-Testversion wird **unentgeltlich** bereitgestellt. Ein Anspruch auf
+(1) Die Software wird mit einem **Testzeitraum** bereitgestellt. Dieser beträgt
+in der Beta-Phase **120 Tage** und in der Verkaufsversion **30 Tage**, jeweils
+gerechnet ab dem ersten Programmstart auf dem jeweiligen Gerät. Während des
+Testzeitraums ist der volle Funktionsumfang ohne Einschränkung nutzbar.
+
+(2) Nach Ablauf des Testzeitraums ist die Software im **Lese-Modus** nutzbar:
+Ansicht der Sammlung, Planung und Analyse bleiben möglich, ebenso Sicherungen,
+Wiederherstellung und Exporte. Das **Schreiben von Änderungen** in die
+Engine-DJ-Datenbank ist erst nach Freischaltung mit einem gültigen
+Lizenzschlüssel wieder möglich. Eine Freischaltung kann auch durch den
+Lizenzgeber erfolgen.
+
+(3) Die Beta-Testversion wird **unentgeltlich** bereitgestellt. Ein Anspruch auf
 Bereitstellung, Weiterentwicklung, Fehlerbehebung oder Fortführung der
 Beta-Phase besteht **nicht**.
 
-(2) Die Beta-Testversion ist **unfertig** und kann Fehler enthalten. Sie darf
+(4) Die Beta-Testversion ist **unfertig** und kann Fehler enthalten. Sie darf
 **nicht** für produktive oder zeitkritische Einsätze (z. B. Live-Auftritte)
 verwendet werden, solange dies nicht ausdrücklich freigegeben wurde.
 
-(3) Die Software verändert auf ausdrückliche Anweisung des Nutzers die
+(5) Die Software verändert auf ausdrückliche Anweisung des Nutzers die
 **Engine-DJ-Datenbank** sowie die dort verknüpften Dateipfade. Der Nutzer ist
 verpflichtet, vor der Nutzung ein **eigenes Backup** seiner Musikbibliothek und
 der Datenbank anzulegen. Der Lizenzgeber übernimmt hierfür keine Haftung
 (§ 5 bleibt unberührt).
 
-(4) Der Lizenzgeber ist berechtigt, die Beta-Phase jederzeit zu beenden oder die
+(6) Der Lizenzgeber ist berechtigt, die Beta-Phase jederzeit zu beenden oder die
 Software zu ändern; die Nutzungsrechte an bereits bezogenen Versionen bleiben
 davon unberührt.
 
-(5) Eine in der Beta-Version ggf. angezeigte Möglichkeit zum Erwerb einer
+(7) Eine in der Beta-Version ggf. angezeigte Möglichkeit zum Erwerb einer
 Pro-Lizenz ist in der Beta-Phase **noch nicht aktiv**; es kommt kein Kaufvertrag
 zustande.
 

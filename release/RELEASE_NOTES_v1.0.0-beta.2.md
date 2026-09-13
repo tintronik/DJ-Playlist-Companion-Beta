@@ -1,9 +1,13 @@
-# DJ Playlist Companion – v1.0.0-beta.1
+# DJ Playlist Companion – v1.0.0-beta.2
 
-**Erste öffentliche Beta-Version** für Windows 10 / 11 (64 Bit).
+**Erste öffentlich veröffentlichte Beta** für Windows 10 / 11 (64 Bit).
 
-> ⚠️ **Beta:** unfertige Testversion. Bitte vor dem Test ein Backup der
-> Engine-DJ-Bibliothek anlegen und Engine DJ beim Speichern geschlossen halten.
+> ⏳ **Testzeitraum: 120 Tage voller Funktionsumfang** – alle Funktionen, keine
+> Track-Limits. Danach wechselt das Programm in den Lese-Modus (Ansehen und
+> Analysieren bleiben möglich, Speichern erst nach Freischaltung).
+>
+> ⚠️ Bitte vor dem Test ein **Backup der Engine-DJ-Bibliothek** anlegen und
+> Engine DJ beim Speichern geschlossen halten.
 
 ## ⬇️ Download
 
@@ -11,12 +15,26 @@
 |---|---|---|
 | `DJ_Playlist_Companion_Demo_Setup.exe` | 77,6 MB | Windows-Installer, **keine** Admin-Rechte nötig |
 
-**SHA256:** `0F999BA589ADA389B29195B26F3056924CB6BED0F7E1309E527528AB4B681C98`
+**SHA256:** `539A8891DBD9375CBEDD0B7EB9BDE7F1E27AA1079E8ABB381512F9154DB2BE8C`
 
 Prüfen mit:
 ```powershell
 Get-FileHash -Algorithm SHA256 ".\DJ_Playlist_Companion_Demo_Setup.exe"
 ```
+
+## 🆕 Neu in dieser Version
+
+- **Testzeitraum statt Demo-Limit:** Die Begrenzung auf 5 Tracks bzw. 5 Gruppen
+  ist entfallen. Die Beta läuft **120 Tage lang ohne jede Einschränkung**.
+- **Lese-Modus nach Ablauf:** Sammlung ansehen, Sets planen, Audioanalyse und
+  Backups bleiben möglich – **Speichern** in der Engine-DJ-Datenbank erst nach
+  der Freischaltung. Es wird nichts gelöscht.
+- **Sperre im Backend:** Schreibzugriffe werden serverseitig geprüft, nicht mehr
+  nur in der Oberfläche.
+- **Lizenzanzeige:** „✓ PRO AKTIV", „⏳ TESTVERSION – noch N Tage" oder
+  „⚠️ TESTZEIT ABGELAUFEN"; abgelaufene Schreibversuche öffnen den Lizenzdialog.
+- **Splash-Screen:** Titel jetzt „DJ Playlist Companion" und neutraler
+  Begrüßungstext.
 
 ## ✨ Funktionen
 
@@ -25,13 +43,22 @@ Get-FileHash -Algorithm SHA256 ".\DJ_Playlist_Companion_Demo_Setup.exe"
 - **Dubletten-Bereinigung (F3):** doppelte Titel und Schreibweisen-Varianten
   finden und in einem Durchgang bereinigen
 - **Genre-Manager (F9):** Genre-Schreibweisen vereinheitlichen
-- **Artist-Manager (F11):** A–Z-Schnellnavigation und Korrektur von
-  Schreibweisen
+- **Artist-Manager (F11):** A–Z-Schnellnavigation und Korrektur von Schreibweisen
 - **Smart Track-Relocator (F7):** verschobene Musikdateien wiederfinden und
   Verknüpfungen reparieren
 - **Set-History (F6):** gespielte Gigs analysieren, als Playlist exportieren
 - **CUE-Player (F10):** Tracks vorhören (Leertaste = Play/Stop)
 - **Sicherheits-Backups:** automatische Sicherung vor dauerhaften Änderungen
+
+## ⏳ Testzeitraum im Detail
+
+| | |
+|---|---|
+| Dauer in dieser Beta | **120 Tage** (Verkaufsversion später: 30 Tage) |
+| Start | mit dem ersten Programmstart |
+| Resttage sichtbar | Button **„Lizenz"** oben rechts in der Kopfzeile |
+| Nach Ablauf | Lese-Modus – Ansicht, Planung, Analyse, Backups und Exporte bleiben frei |
+| Gesperrt nach Ablauf | Schreiben in die Engine-DJ-Datenbank |
 
 ## 🖥️ Voraussetzungen
 
@@ -41,8 +68,6 @@ Get-FileHash -Algorithm SHA256 ".\DJ_Playlist_Companion_Demo_Setup.exe"
 
 ## ⚠️ Bekannte Einschränkungen
 
-- **Demo-Limit:** maximal 5 Tracks bzw. 5 Gruppen pro Aktion.
-  Eine Pro-Version ohne Limit ist in Vorbereitung.
 - **Kauf-Link im Lizenzdialog ist noch nicht aktiv** – der Button führt derzeit
   ins Leere. Das ist bekannt und kein Installationsfehler.
 - **Kein Code-Signing:** Windows zeigt beim Start ggf. eine
