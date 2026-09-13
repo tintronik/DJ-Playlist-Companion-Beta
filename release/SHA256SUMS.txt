@@ -14,9 +14,8 @@ Der ausgegebene `Hash`-Wert muss dem Eintrag unten entsprechen.
 
 ## v1.0.0-beta.1
 
-Status: **in Vorbereitung** – die Prüfsumme wird nach dem Release-Build
-nachgetragen.
-
 | Datei | Größe | SHA256 |
 |---|---|---|
-| `DJ_Playlist_Companion_Demo_Setup.exe` | _folgt_ | _folgt_ |
+| `DJ_Playlist_Companion_Demo_Setup.exe` | 81.348.238 Bytes (77,6 MB) | `0F999BA589ADA389B29195B26F3056924CB6BED0F7E1309E527528AB4B681C98` |
+
+Prüfsumme erstellt am 13.09.2026 aus dem Build der Version `v1.0.0-beta.1`.
