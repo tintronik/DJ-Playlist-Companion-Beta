@@ -1,0 +1,72 @@
+name: Fehlerbericht (Beta)
+description: Einen reproduzierbaren Fehler in der Beta-Version melden
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke, dass du die Beta testest! Bitte fülle das Formular möglichst genau aus –
+        das spart Rückfragen.
+
+        > **Wichtig:** Lege vor dem Test ein Backup deiner Engine-DJ-Bibliothek an.
+        > Das Programm schreibt bei „Speichern" direkt in die Datenbank.
+  - type: input
+    id: version
+    attributes:
+      label: Version der Beta
+      description: Steht im Lizenz-/Info-Dialog oder im Dateinamen der Setup-Datei.
+      placeholder: "z. B. v1.0.0-beta.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows-Version
+      options:
+        - Windows 11
+        - Windows 10
+        - Sonstiges (bitte unten beschreiben)
+    validations:
+      required: true
+  - type: input
+    id: engine
+    attributes:
+      label: Engine-DJ-Version und Speicherort der Bibliothek
+      description: Desktop-Installation oder externes Laufwerk (USB/SSD)?
+      placeholder: "z. B. Engine DJ 4.x, Bibliothek auf externer SSD (Laufwerk E:)"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Nachstellen
+      placeholder: |
+        1. Programm starten
+        2. Datenbank auswählen
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Tatsächliches Verhalten
+      description: Fehlermeldung möglichst wörtlich wiedergeben.
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots oder Logs (optional)
+      description: |
+        Logs liegen unter `%LOCALAPPDATA%\DJ Playlist Companion\logs`
+        (z. B. `app.log`, `error.log`). Bitte vor dem Hochladen auf persönliche
+        Pfade prüfen.
+    validations:
+      required: false

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Frage stellen / Erfahrung teilen
+    url: https://github.com/tintronik/DJ-Playlist-Companion-Beta/discussions
+    about: Für allgemeine Fragen, Feedback und den Austausch mit anderen Beta-Testern bitte die Discussions nutzen.
+  - name: Download der Beta-Version
+    url: https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/latest
+    about: Hier findest du immer die aktuelle Beta-Version.

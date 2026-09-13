@@ -1,0 +1,22 @@
+# Prüfsummen der Release-Dateien
+
+Hier werden die SHA256-Prüfsummen der veröffentlichten Installationsdateien
+dokumentiert, damit Beta-Tester ihren Download verifizieren können.
+
+## Prüfsumme selbst nachrechnen (Windows PowerShell)
+
+```powershell
+Get-FileHash -Algorithm SHA256 ".\DJ_Playlist_Companion_Demo_Setup.exe" |
+  Format-List
+```
+
+Der ausgegebene `Hash`-Wert muss dem Eintrag unten entsprechen.
+
+## v1.0.0-beta.1
+
+Status: **in Vorbereitung** – die Prüfsumme wird nach dem Release-Build
+nachgetragen.
+
+| Datei | Größe | SHA256 |
+|---|---|---|
+| `DJ_Playlist_Companion_Demo_Setup.exe` | _folgt_ | _folgt_ |

@@ -1,0 +1,27 @@
+# ============================================================
+#  DJ Playlist Companion - Beta-Repository
+#  Hier liegen bewusst NUR Dokumentation und Assets.
+#  Build-Artefakte gehoeren in die GitHub-Releases, nicht ins Repo.
+# ============================================================
+
+# --- Ausfuehrbare Dateien / Archive (gehoeren in die Releases) ---
+*.exe
+*.msi
+*.zip
+*.7z
+
+# --- Protokolle & temporaere Dateien ---
+*.log
+*.tmp
+*.bak
+
+# --- OS / Editor ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# --- Python-Reste (falls mal Skripte dazukommen) ---
+__pycache__/
+*.py[cod]
