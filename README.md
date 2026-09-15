@@ -1,604 +1,466 @@
+<div align="center">
+  <img src="assets/Engine Compagnion Logo.svg" width="110" alt="DJ Playlist Companion Logo">
+</div>
+
 # 🎧 DJ Playlist Companion
 
 ## Take control of your Engine DJ library.
 
 **Clean your library. Fix missing tracks. Build better sets.**
 
-DJ Playlist Companion is a Windows application built specifically for **Denon DJ / Engine DJ users** who want to spend less time managing their music library and more time preparing and playing great sets.
+Beta-Testversion für **Windows 10 & 11** · **Engine DJ** · **Denon DJ**
 
-> 🧪 **FREE 120-DAY BETA — All features unlocked. No track limits.**
-
-[⬇️ Download the latest Beta](../../releases) · [🐞 Report a bug](../../issues/new) · [💬 Join the discussion](../../discussions)
+[⬇️ **DOWNLOAD BETA v1.0.0-beta.2**](https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/download/v1.0.0-beta.2/DJ_Playlist_Companion_Demo_Setup.exe)
 
 ---
 
-## Why DJ Playlist Companion?
+## 🎯 What is DJ Playlist Companion?
 
-The bigger your DJ library gets, the harder it becomes to keep everything organized.
+**DJ Playlist Companion** is a powerful Windows desktop tool for DJs who use **Engine DJ** and want more control over their music library and set preparation.
 
-Duplicate tracks.
-Inconsistent artist names.
-Messy genres.
-Missing files.
-Thousands of tracks to search through before a gig.
+It helps you:
 
-**DJ Playlist Companion brings powerful library management and set preparation tools together in one application.**
+- clean and organize your Engine DJ library
+- find and remove duplicate tracks
+- repair missing or moved track locations
+- manage genres and artists
+- analyze and improve your set flow
+- review your set history
+- preview tracks and cue points
+- create backups before changing your Engine DJ database
 
-### Your music library should work for you — not against you.
-
----
-
-# 🚀 What can you do with DJ Playlist Companion?
-
-## 🎵 Build better DJ sets
-
-### Set Arranger · `F8`
-
-Turn a collection of tracks into a structured, playable DJ set.
-
-Choose between different approaches:
-
-* 🌊 **The Wave**
-* 📈 **Progressive Ramp**
-* 🔥 **Peak-Time**
-
-Analyze your tracks and optimize:
-
-* BPM flow
-* Key flow
-* Energy progression
-* Set structure
-
-**From a collection of tracks to a set you can actually play.**
+It works **locally on your Windows PC** and is designed for DJs with larger libraries who want to spend less time managing files and more time preparing great sets.
 
 ---
 
-## 🧹 Clean up your music library
+# 🚀 Key Features
 
-### Duplicate Cleaner · `F3`
+### 🌊 F8 — Set Arranger
 
-Find duplicate tracks and common naming variations.
+Build better sets with intelligent tools for track flow and energy management.
 
-For example:
+- **The Wave**
+- **Progressive Ramp**
+- **Peak-Time**
+- BPM flow
+- Key flow
+- visual set planning
 
-```text
-Track Title.mp3
-Track Title (1).mp3
-Track Title [Remastered].mp3
-```
-
-DJ Playlist Companion can identify duplicates and help you clean them up with a simple workflow.
-
-**Less clutter. More control.**
+Perfect for preparing a set before going to the club, festival or next gig.
 
 ---
 
-## 🎚️ Standardize your genres
+### 🧹 F3 — Duplicate Cleaner
 
-### Genre Manager · `F9`
+Find duplicate tracks in your Engine DJ collection.
 
-Keep your genre names consistent.
+Detects common duplicate situations such as:
 
-For example:
+- identical track titles
+- naming variations
+- multiple copies of the same track
 
-```text
-DnB
-D&B
-Drum n Bass
-Drum & Bass
-```
-
-can be standardized to:
-
-```text
-Drum & Bass
-```
-
-A consistent library makes searching, filtering and playlist preparation much easier.
+Clean up your library with a simple workflow instead of manually searching through thousands of tracks.
 
 ---
 
-## 👤 Clean up artist names
+### 🎵 F9 — Genre Manager
 
-### Artist Manager · `F11`
+Keep your genres consistent and usable.
 
-Find and correct inconsistent artist names.
-
-Quickly navigate your artist library using A–Z navigation and correct naming variations.
-
-For example:
-
-```text
-tiesto
-Tiesto
-TIESTO
-```
-
-can become:
-
-```text
-Tiësto
-```
+- identify inconsistent genre information
+- normalize genre names
+- clean up genre chaos
+- improve filtering and playlist organization
 
 ---
 
-## 📁 Find missing or moved tracks
+### 👤 F11 — Artist Manager
 
-### Smart Track Relocator · `F7`
+Improve artist information across your library.
 
-Moved your music folder?
-
-Changed a drive letter?
-
-Engine DJ suddenly can't find some of your tracks?
-
-Smart Track Relocator helps find missing or moved music files and repair their paths in your library.
-
-**Find the music. Fix the library. Keep your playlists.**
+- find inconsistent artist entries
+- clean up artist names
+- identify variations
+- keep your collection structured
 
 ---
 
-## 🕘 Learn from your previous sets
+### 📍 F7 — Smart Track Relocator
 
-### Set History · `F6`
+Moved or missing files are one of the most frustrating problems in a DJ library.
 
-Analyze tracks from previously played gigs and export them as new playlists.
+**Smart Track Relocator** helps you find tracks whose file paths have changed.
 
-Useful for:
+Useful when:
 
-* Reviewing previous gigs
-* Recreating successful sets
-* Building new playlists
-* Analyzing your track selection
-* Preparing future sets
-
-Your previous gigs become a resource for your next one.
+- you moved music to another folder
+- you reorganized your music drive
+- paths changed after migrating a library
+- Engine DJ reports missing tracks
 
 ---
 
-## ▶️ Preview tracks while organizing
+### 📚 F6 — Set History
 
-### CUE Player · `F10`
+Keep track of what you played.
 
-Preview tracks directly inside DJ Playlist Companion.
+Review your previous sets and use your history to:
 
-| Key       | Action      |
-| --------- | ----------- |
-| `Space`   | Play / Stop |
-| `←` / `→` | Seek        |
-
-Quickly check tracks while organizing your library or preparing a set.
+- remember successful combinations
+- avoid repeating tracks too often
+- analyze previous performances
+- prepare future sets
 
 ---
 
-# 🛡️ Your library comes first
+### ▶️ F10 — CUE Player
 
-DJ Playlist Companion works directly with your **Engine DJ database**.
+Preview your tracks directly inside DJ Playlist Companion.
 
-That gives the application powerful capabilities — but it also means database changes should always be treated carefully.
-
-### Automatic backups
-
-Before permanent changes are made, DJ Playlist Companion automatically creates a backup.
-
-### ⚠️ Important
-
-This is a **Beta version**.
-
-Before testing the software, make a backup of your Engine DJ music library.
-
-Please read the:
-
-👉 [Beta Test Guide](BETA_TESTANLEITUNG.md)
+Use the integrated player to quickly inspect tracks while working on your library and set preparation.
 
 ---
 
-# 🔒 Your music stays local
+### 💾 Automatic Backups
 
-DJ Playlist Companion is designed with a local-first approach.
+Your Engine DJ database is important.
 
-### No:
+DJ Playlist Companion creates backups before permanent database changes so you can work more safely.
 
-* ❌ Telemetry
-* ❌ Tracking
-* ❌ Usage profiles
-
-Your music library and application data remain on your computer.
-
-The only network connection occurs when a **Pro license key is activated**.
-
-More information:
-
-👉 [Privacy Policy](DATENSCHUTZ.md)
-
----
-
-# 🧪 120-Day Beta
-
-## Try every feature. No track limits.
-
-The Beta runs for **120 days** from the first launch.
-
-During the Beta period you get:
-
-* ✅ All features
-* ✅ No track limits
-* ✅ Set Arranger
-* ✅ Library cleanup tools
-* ✅ Smart Track Relocator
-* ✅ Set History
-* ✅ CUE Player
-* ✅ Audio analysis
-* ✅ Automatic backups
-
-After the Beta period, the application switches to read-only mode.
-
-You can still:
-
-* View your collection
-* Plan sets
-* Use audio analysis
-* Create backups
-
-Changes to the Engine DJ database require activation of the Pro version.
-
-**Nothing is deleted when the Beta period ends.**
-
-You can see the remaining Beta days at any time via the **License** button in the application.
-
----
-
-# ⬇️ Download
-
-## Windows 10 / 11 · 64-bit
-
-👉 **[Download the latest Beta](../../releases)**
-
-Recommended installer:
-
-```text
-DJ_Playlist_Companion_Demo_Setup.exe
-```
-
-The installer does **not require administrator rights**.
-
-### Verify your download
-
-SHA-256 checksums are provided here:
-
-👉 [SHA256SUMS.txt](release/SHA256SUMS.txt)
-
----
-
-# 🖥️ System requirements
-
-| Requirement      | Supported                     |
-| ---------------- | ----------------------------- |
-| Operating system | Windows 10 / Windows 11       |
-| Architecture     | 64-bit                        |
-| Engine DJ        | 3.x, 4.x & 5.0+               |
-| Library          | PC, USB stick or external SSD |
-| Python           | Not required                  |
-| Installation     | Standalone application        |
-
-### Currently not supported
-
-* macOS
-* Linux
-* Pioneer rekordbox
-* Serato
-* Traktor
-
-DJ Playlist Companion is an independent third-party application and is not affiliated with inMusic Brands Inc. or Denon DJ.
-
----
-
-# ⚡ Installation
-
-### 1. Download
-
-Download the latest version from:
-
-👉 **[GitHub Releases](../../releases)**
-
-### 2. Install
-
-Run:
-
-```text
-DJ_Playlist_Companion_Demo_Setup.exe
-```
-
-Windows may display a SmartScreen warning because the Beta is currently not digitally signed.
-
-If this happens:
-
-**More info → Run anyway**
-
-### 3. Start DJ Playlist Companion
-
-On the first launch, the application searches for your Engine DJ library.
-
-The default database location is:
-
-```text
-Engine Library/Database2/m.db
-```
-
-For the complete installation and uninstall instructions:
-
-👉 [Installation Guide](docs/INSTALLATION.md)
-
----
-
-# 🎛️ Feature overview
-
-| Shortcut | Feature                   | Purpose                              |
-| -------- | ------------------------- | ------------------------------------ |
-| `F8`     | **Set Arranger**          | Build and optimize DJ sets           |
-| `F3`     | **Duplicate Cleaner**     | Find and clean duplicates            |
-| `F9`     | **Genre Manager**         | Standardize genre names              |
-| `F11`    | **Artist Manager**        | Correct artist names                 |
-| `F7`     | **Smart Track Relocator** | Find missing or moved tracks         |
-| `F6`     | **Set History**           | Analyze previous gigs                |
-| `F10`    | **CUE Player**            | Preview tracks                       |
-| —        | **Automatic Backups**     | Protect your database before changes |
+**Always keep your own backup as well**, especially during beta testing.
 
 ---
 
 # 📸 Screenshots
 
-## Set History
+## Start
 
-![DJ Playlist Companion – Set History](assets/set-history.png)
+![DJ Playlist Companion Start](assets/screenshots/01-start.png)
 
-## Smart Track Relocator
+## Set Arranger
 
-![DJ Playlist Companion – Smart Track Relocator](assets/track-relocator.png)
+![DJ Playlist Companion Set Arranger](assets/screenshots/02-set-arranger.png)
 
 ## Genre Manager
 
-![DJ Playlist Companion – Genre Manager](assets/genre-manager.png)
+![DJ Playlist Companion Genre Manager](assets/screenshots/03-genre-manager.png)
+
+## Set History
+
+![DJ Playlist Companion Set History](assets/screenshots/04-set-history.png)
+
+## Track Relocator
+
+![DJ Playlist Companion Track Relocator](assets/screenshots/05-track-relocator.png)
 
 ## CUE Player
 
-![DJ Playlist Companion – CUE Player](assets/cue-player.png)
+![DJ Playlist Companion CUE Player](assets/screenshots/06-cue-player.png)
 
 ---
 
-# 🧪 Help shape the Beta
+# 🧪 Beta Test
+
+DJ Playlist Companion is currently available as a **120-day beta test**.
+
+During the beta:
+
+- all features are available
+- there are no track-count limitations
+- you can use the complete application
+- your feedback directly helps shape the product
+
+After the beta period expires, the application switches to **read-only mode**.
+
+You can still:
+
+- view your collection
+- plan sets
+- analyze your music
+- use backups
+- work with the application without modifying the Engine DJ database
+
+Saving changes to the Engine DJ database after the beta requires a **Pro license**.
+
+**Nothing is automatically deleted when the beta expires.**
+
+---
+
+# ⬇️ Download
+
+## Windows 10 / 11 — 64-bit
+
+**Latest beta:** `v1.0.0-beta.2`
+
+### Direct Download
+
+[⬇️ **Download DJ Playlist Companion Beta**](https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/download/v1.0.0-beta.2/DJ_Playlist_Companion_Demo_Setup.exe)
+
+Installer:
+
+`DJ_Playlist_Companion_Demo_Setup.exe`
+
+The installer does **not require administrator rights**.
+
+---
+
+# 🖥️ System Requirements
+
+### Operating System
+
+- Windows 10 64-bit
+- Windows 11 64-bit
+
+### Engine DJ
+
+- Engine DJ 3.x
+- Engine DJ 4.x
+- Engine DJ 5.0+
+
+### No additional runtime required
+
+You do **not** need to install:
+
+- Python
+- .NET
+- additional development tools
+
+---
+
+# 📦 Installation
+
+1. Download the latest beta installer.
+2. Start `DJ_Playlist_Companion_Demo_Setup.exe`.
+3. Follow the installation wizard.
+4. Start DJ Playlist Companion.
+5. The application searches for your Engine DJ database automatically.
+
+The default installation location is:
+
+`%LOCALAPPDATA%\Programs\DJ Playlist Companion`
+
+DJ Playlist Companion looks for the Engine DJ database:
+
+`Engine Library\Database2\m.db`
+
+The application can also work with multiple Engine DJ libraries, including libraries located on:
+
+- your PC
+- USB drives
+- external SSDs
+
+For detailed installation information, see:
+
+[📖 Installation Guide](docs/INSTALLATION.md)
+
+---
+
+# ⚠️ Important: Engine DJ Database
+
+DJ Playlist Companion works directly with your **Engine DJ database** when changes are saved.
+
+Therefore:
+
+### Before making database changes
+
+- close Engine DJ
+- make sure your music drives are connected
+- keep a backup of your Engine DJ library
+- during beta testing, test carefully before using the application on your main library
+
+DJ Playlist Companion also creates automatic backups before permanent changes.
+
+---
+
+# 🔐 Privacy
+
+DJ Playlist Companion is designed as a **local-first application**.
+
+### Your library data stays local.
+
+There is:
+
+- no usage profiling
+- no tracking of your DJ activity
+- no telemetry for your music library
+- no cloud upload of your Engine DJ database
+
+The application only requires an internet connection when a **Pro license key** is activated through the licensing provider.
+
+---
+
+# 🛡️ Windows SmartScreen
+
+Because the beta installer is currently **not digitally signed**, Windows SmartScreen may display a warning when you start the installer.
+
+This does not mean that the installer is malicious.
+
+If you downloaded the installer from the official GitHub release, you can review the release information and verify the file checksum before continuing.
+
+SHA-256 checksums are provided in:
+
+[release/SHA256SUMS.txt](release/SHA256SUMS.txt)
+
+---
+
+# 📖 Documentation
+
+- [Installation Guide](docs/INSTALLATION.md)
+- [Beta Test Guide](BETA_TESTANLEITUNG.md)
+- [Changelog](CHANGELOG.md)
+- [Privacy Policy](DATENSCHUTZ.md)
+- [EULA](EULA.md)
+- [License](LICENSE.md)
+
+---
+
+# 💬 Feedback & Bug Reports
+
+This is a beta version, and your feedback is extremely valuable.
+
+If you find a bug, have an idea or want to suggest an improvement, please open an issue on GitHub.
+
+### Please include:
+
+- Windows version
+- Engine DJ version
+- DJ Playlist Companion version
+- what you were trying to do
+- what happened
+- screenshots if useful
+- relevant log information if available
+
+👉 [Open a GitHub Issue](https://github.com/tintronik/DJ-Playlist-Companion-Beta/issues)
+
+You can also use the repository discussions for questions and general feedback.
+
+👉 [GitHub Discussions](https://github.com/tintronik/DJ-Playlist-Companion-Beta/discussions)
+
+---
+
+# 🗺️ Roadmap
 
 DJ Playlist Companion is actively being developed.
 
-**Your feedback matters.**
+The goal is to build a professional toolkit for **Engine DJ library management and set preparation**.
 
-If you find a problem, please tell us.
+Future development will be guided strongly by feedback from DJs using the application.
 
-### 🐞 Found a bug?
-
-👉 [Create a new Issue](../../issues/new)
-
-Please include:
-
-1. What were you trying to do?
-2. What happened?
-3. What did you expect?
-4. Which Engine DJ version are you using?
-5. Which Windows version are you using?
-
-Screenshots are especially helpful.
-
-### 💡 Have an idea?
-
-👉 [Start a Discussion](../../discussions)
-
-Tell us which feature would make your DJ workflow easier.
+If you have a feature request, please open an issue and describe your workflow and use case.
 
 ---
 
-# ⚠️ Known Beta limitations
+# 🎧 Who is it for?
 
-Please keep the following in mind:
+DJ Playlist Companion is especially useful for:
 
-* The Beta is not digitally signed, so Windows SmartScreen may display a warning.
-* Engine DJ should be closed while DJ Playlist Companion makes database changes.
-* Changes are not synchronized with Engine DJ while Engine DJ is running.
-* The Pro version is currently in preparation.
-* The purchase link in the license dialog is not active yet.
-* Windows 10/11 64-bit only.
-* Engine DJ libraries only.
+- DJs with large Engine DJ libraries
+- club DJs
+- mobile DJs
+- bedroom DJs
+- DJs preparing longer sets
+- DJs who regularly reorganize their music
+- DJs who have problems with duplicate or missing tracks
+- DJs who want better control over their Engine DJ database
 
----
-
-# 📄 Documentation
-
-| Document                                   | Description                             |
-| ------------------------------------------ | --------------------------------------- |
-| [Installation Guide](docs/INSTALLATION.md) | Installation and uninstall instructions |
-| [Beta Test Guide](BETA_TESTANLEITUNG.md)   | Beta testing and test checklist         |
-| [Changelog](CHANGELOG.md)                  | Version history and changes             |
-| [Privacy Policy](DATENSCHUTZ.md)           | Privacy and data handling               |
-| [EULA](EULA.md)                            | End User License Agreement              |
-| [License](LICENSE.md)                      | Software license                        |
+If you use **Engine DJ** and your music library has grown into something difficult to manage, DJ Playlist Companion is built for you.
 
 ---
 
-# 📜 License
+# 🔄 Engine DJ Workflow
 
-DJ Playlist Companion is proprietary software.
+A typical workflow looks like this:
 
-All rights reserved.
+**1. Import / manage music in Engine DJ**
 
-The source code is **not included in this repository**.
+↓
 
-Use of the software is subject to the End User License Agreement.
+**2. Open DJ Playlist Companion**
 
-👉 [LICENSE.md](LICENSE.md)
-👉 [EULA.md](EULA.md)
+↓
 
----
+**3. Clean and organize your library**
 
-# ⚠️ Disclaimer
+↓
 
-DJ Playlist Companion is an independent third-party application.
+**4. Relocate missing tracks**
 
-It is **not affiliated with, sponsored by, endorsed by or otherwise connected to inMusic Brands Inc. or Denon DJ.**
+↓
 
-Engine DJ, Engine OS and Denon DJ are trademarks of their respective owners.
+**5. Manage artists and genres**
 
----
+↓
 
-# 🎧 Built for Engine DJ users
+**6. Analyze and arrange your set**
 
-DJ Playlist Companion started with a simple idea:
+↓
 
-> **Managing your music library shouldn't get in the way of playing music.**
+**7. Preview tracks and cue points**
 
-If you use Engine DJ and have a growing music library, give the Beta a try.
+↓
 
-### ⭐ Like the project?
+**8. Save changes back to your Engine DJ database**
 
-Give the repository a Star:
+↓
 
-👉 **[⭐ Star DJ Playlist Companion](../../)**
-
-### 🧪 Want to test it?
-
-👉 **[⬇️ Download the Beta](../../releases)**
-
-### 💬 Have feedback?
-
-👉 **[💬 Join the Discussion](../../discussions)**
+**9. Back up your library**
 
 ---
 
-**© 2026 Tintronik · DJ Playlist Companion · All rights reserved**
-<div align="center">
+# 📌 Current Limitations
 
-<img src="assets/Engine Compagnion Logo.svg" width="110" alt="DJ Playlist Companion Logo">
+The current beta has a few important limitations:
 
-# DJ Playlist Companion
-
-**Die Schaltzentrale für deine Denon DJ / Engine DJ Musiksammlung**
-
-Beta-Testversion für Windows 10 & 11 · Set-Arranger · 1-Klick-Aufräumen · Smart Track-Relocator
-
-</div>
+- Windows 10/11 64-bit only
+- Engine DJ only
+- the beta installer is currently unsigned
+- Engine DJ should be closed while DJ Playlist Companion makes database changes
+- Pro purchasing is not yet active in the beta
 
 ---
 
-> ## ⚠️ Beta-Hinweis
-> Diese Software ist eine **unfertige Testversion**. Sie verändert bei „Speichern"
-> direkt deine Engine-DJ-Datenbank. **Lege vor dem Test ein Backup deiner
-> Musikbibliothek an.** Nutzung auf eigenes Risiko – siehe
-> [`BETA_TESTANLEITUNG.md`](BETA_TESTANLEITUNG.md).
+# ⚖️ Disclaimer
 
-## ⬇️ Download
+DJ Playlist Companion is an independent third-party software project.
 
-**[➜ Aktuelle Beta herunterladen (GitHub Releases)](https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/download/v1.0.0-beta.2/DJ_Playlist_Companion_Demo_Setup.exe)**
+It is **not affiliated with, sponsored by, endorsed by or officially connected to inMusic Brands, Denon DJ or Engine DJ**.
 
-| Datei | Beschreibung |
-|---|---|
-| `DJ_Playlist_Companion_Demo_Setup.exe` | Windows-Installer (empfohlen) – kein Administrator-Recht nötig |
+Engine DJ and related trademarks are property of their respective owners.
 
-Prüfsummen zur Kontrolle des Downloads: [`release/SHA256SUMS.txt`](release/SHA256SUMS.txt)
+Use database modification features responsibly and maintain your own backups.
 
-## ✨ Was kann das Programm?
+---
 
-| | Funktion | Beschreibung |
-|---|---|---|
-| <kbd>F8</kbd> | **Set-Arranger** | DJ-Sets mit automatischer Spannungsbogen-Optimierung („The Wave", „Progressive Ramp", „Peak-Time"), BPM- und Key-Flow-Analyse |
-| <kbd>F3</kbd> | **Dubletten-Bereinigung** | Erkennt doppelte Titel und Tippfehler-Varianten, 1-Klick-Auto-Bereinigung |
-| <kbd>F9</kbd> | **Genre-Manager** | Schreibweisen vereinheitlichen (z. B. `DnB` → `Drum & Bass`) |
-| <kbd>F11</kbd> | **Artist-Manager** | A–Z-Schnellnavigation, Schreibweisen korrigieren (z. B. `tiesto` → `Tiësto`) |
-| <kbd>F7</kbd> | **Smart Track-Relocator** | Fehlende oder verschobene Musikdateien automatisch wiederfinden und reparieren |
-| <kbd>F6</kbd> | **Set-History** | Gespielte Gigs analysieren und als neue Playlist exportieren |
-| <kbd>F10</kbd> | **CUE-Player** | Tracks vorhören (Leertaste = Play/Stop, Pfeiltasten = Spulen) |
-| — | **Sicherheits-Backups** | Vor jeder dauerhaften Änderung wird automatisch eine Sicherung angelegt |
+# 📄 License
 
-### Eindrücke
+See [LICENSE.md](LICENSE.md) for licensing information.
 
-![Start](assets/screenshots/01-start.png)
-![Set-Arranger](assets/screenshots/02-set-arranger.png)
+The application is provided for beta testing purposes under the terms of the included EULA.
 
-Weitere Bilder: [Set-History](assets/screenshots/04-set-history.png) ·
-[Track-Relocator](assets/screenshots/05-track-relocator.png) ·
-[Genre-Manager](assets/screenshots/03-genre-manager.png) ·
-[CUE-Player](assets/screenshots/06-cue-player.png)
+---
 
-## 🖥️ Systemvoraussetzungen
+# ⭐ Support the Project
 
-- **Windows 10 oder Windows 11 (64 Bit)**
-- Eine **Engine-DJ-Bibliothek** (Engine DJ 3.x, 4.x & 5.0+) – auf dem PC oder
-  auf einem USB-Stick / einer externen SSD
-- Keine Python-Installation nötig: Die Anwendung ist ein eigenständiges
-  Windows-Programm (Standalone, „Zero Dependency")
+If DJ Playlist Companion helps you manage your Engine DJ library, please consider:
 
-**Nicht** unterstützt: macOS/Linux, Pioneer rekordbox, Serato, Traktor.
-Keine Verbindung zu inMusic Brands Inc. oder Denon DJ.
+⭐ starring the GitHub repository  
+🐛 reporting bugs  
+💡 suggesting features  
+💬 sharing your feedback with other DJs
 
-## 🚀 Installation
-
-1. `DJ_Playlist_Companion_Demo_Setup.exe` aus den
-   [Releases](https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/latest) herunterladen
-2. Windows zeigt ggf. eine SmartScreen-Warnung (die Beta ist noch nicht
-   signiert) → *Weitere Informationen* → *Trotzdem ausführen*
-3. Setup durchklicken, optional Desktop-Verknüpfung aktivieren
-4. Programm starten – beim ersten Start wird deine Engine-DJ-Bibliothek
-   gesucht (`Engine Library/Database2/m.db`)
-
-Ausführliche Anleitung inkl. Deinstallation: [`docs/INSTALLATION.md`](docs/INSTALLATION.md)
-
-## 🧪 Beta testen & Feedback geben
-
-Die genaue Testanleitung mit Checkliste steht in
-[`BETA_TESTANLEITUNG.md`](BETA_TESTANLEITUNG.md).
-
-- 🐞 **Fehler melden:** [Neues Issue anlegen](https://github.com/tintronik/DJ-Playlist-Companion-Beta/issues/new?template=bug_report.yml)
-- 💬 **Fragen & Austausch:** [Discussions](https://github.com/tintronik/DJ-Playlist-Companion-Beta/discussions)
-
-## 🔒 Datenschutz
-
-- **Keine Telemetrie, kein Tracking, keine Nutzungsprofile.**
-- Alle Daten bleiben lokal auf deinem Rechner
-  (`%LOCALAPPDATA%\DJ Playlist Companion`).
-- Die einzige Netzwerkverbindung entsteht nur dann, wenn du einen
-  Pro-Lizenzschlüssel aktivierst (Lemon Squeezy).
-
-Details: [`DATENSCHUTZ.md`](DATENSCHUTZ.md)
-
-## ⏳ Testzeitraum
-
-- Die Beta läuft **120 Tage lang ohne jede Einschränkung** – alle Funktionen,
-  keine Track-Limits. Die Testzeit startet mit dem **ersten Programmstart**.
-- Danach wechselt das Programm in den **Lese-Modus**: Sammlung ansehen, Sets
-  planen, Audioanalyse und Backups bleiben möglich – **Speichern** in der
-  Engine-DJ-Datenbank erst nach der Freischaltung. Es wird nichts gelöscht.
-- Die Resttage siehst du jederzeit im Button **„Lizenz"** oben rechts.
-
-## ⚠️ Bekannte Einschränkungen dieser Beta
-
-- Eine **Pro-Version** ist in Vorbereitung. Der Kauf-Link im Lizenzdialog des
-  Programms ist **noch nicht aktiv** und führt derzeit ins Leere – das ist
-  bekannt und kein Fehler in deinem Setup.
-- Die Beta ist **nicht digital signiert** → SmartScreen-Warnung beim Start.
-- Änderungen werden nicht mit Engine DJ abgeglichen, solange Engine DJ geöffnet
-  ist: Das Programm sollte bei laufendem Engine DJ **geschlossen** bleiben.
-- Nur Windows 10/11 (64 Bit), nur Engine DJ.
-
-## 📄 Lizenz
-
-**Proprietär – alle Rechte vorbehalten.** Der Quellcode ist **nicht** Teil dieses
-Repositories. Nutzung ausschließlich nach der Endnutzer-Lizenzvereinbarung:
-siehe [`LICENSE.md`](LICENSE.md) und [`EULA.md`](EULA.md).
-
-> *DJ Playlist Companion* ist eine unabhängige Software und steht in keiner
-> geschäftlichen Verbindung zu inMusic Brands Inc. oder Denon DJ.
-> **Engine DJ**, **Engine OS** und **Denon DJ** sind eingetragene Warenzeichen
-> von inMusic Brands Inc.
+Every beta tester helps make the application better.
 
 ---
 
 <div align="center">
-<sub>© 2026 Tintronik · DJ Playlist Companion · Alle Rechte vorbehalten</sub>
+
+### 🎧 DJ Playlist Companion
+
+**Clean your library. Fix missing tracks. Build better sets.**
+
+Made for DJs who use Engine DJ.
+
+[⬇️ Download the Beta](https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/download/v1.0.0-beta.2/DJ_Playlist_Companion_Demo_Setup.exe)
+
 </div>
