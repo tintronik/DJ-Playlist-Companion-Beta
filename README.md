@@ -20,7 +20,7 @@ Beta-Testversion für Windows 10 & 11 · Set-Arranger · 1-Klick-Aufräumen · S
 
 ## ⬇️ Download
 
-**[➜ Aktuelle Beta herunterladen (GitHub Releases)](https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/latest)**
+**[➜ Aktuelle Beta herunterladen (GitHub Releases)](https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/download/v1.0.0-beta.2/DJ_Playlist_Companion_Demo_Setup.exe)**
 
 | Datei | Beschreibung |
 |---|---|
