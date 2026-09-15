@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" width="110" alt="DJ Playlist Companion Logo">
+<img src="assets/Engine Compagnion Logo.svg" width="110" alt="DJ Playlist Companion Logo">
 
 # DJ Playlist Companion
 
