@@ -309,6 +309,7 @@ SHA-256 checksums are provided in:
 - [Installation Guide](docs/INSTALLATION.md)
 - [Beta Test Guide](BETA_TESTANLEITUNG.md)
 - [Changelog](CHANGELOG.md)
+- [Release Checklist (German)](release/RELEASE_CHECKLIST.md)
 - [Privacy Policy](DATENSCHUTZ.md)
 - [EULA](EULA.md)
 - [License](LICENSE.md)
