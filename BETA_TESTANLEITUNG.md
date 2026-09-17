@@ -94,7 +94,7 @@ Hilfreich für uns:
 
 | Angabe | Wo zu finden |
 |---|---|
-| Beta-Version | Dateiname der Setup-Datei (z. B. `v1.0.0-beta.1`) |
+| Beta-Version | Dateiname der Setup-Datei (z. B. `v1.0.0-beta.3`) |
 | Windows-Version | `winver` in der Windows-Suche |
 | Engine-DJ-Version | Engine DJ → Info/Über |
 | Schritte zum Nachstellen | 1, 2, 3 … so genau wie möglich |

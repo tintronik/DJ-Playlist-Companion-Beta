@@ -2,7 +2,7 @@
 
 Alle nennenswerten Änderungen an den veröffentlichten Beta-Versionen.
 
-## [Unveröffentlicht] – in Arbeit
+## [v1.0.0-beta.3] – aktuelle Beta
 
 **Neutrale Bezeichnung für die Tonart-Spalte**
 
@@ -14,8 +14,10 @@ Alle nennenswerten Änderungen an den veröffentlichten Beta-Versionen.
 - Hintergrund: markenrechtliche Vorsicht – geschützte Fremdbezeichnungen werden im
   Programm, in den Downloads und in der Dokumentation nicht mehr verwendet.
 
-> Hinweis: Die Screenshots in diesem Repository zeigen noch den bisherigen
-> Spaltenkopf. Sie werden mit der nächsten Beta-Version aktualisiert.
+**Neue Screenshots**
+
+- Alle Bilder wurden mit einer vollständig synthetischen Demo-Bibliothek neu
+  aufgenommen (keine echten Titel, Artists oder Cover).
 
 ## [v1.0.0-beta.2] – erste veröffentlichte Beta
 

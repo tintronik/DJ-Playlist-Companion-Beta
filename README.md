@@ -10,7 +10,7 @@
 
 Beta-Testversion für **Windows 10 & 11** · **Engine DJ** · **Denon DJ**
 
-[⬇️ **DOWNLOAD BETA v1.0.0-beta.2**](https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/download/v1.0.0-beta.2/DJ_Playlist_Companion_Demo_Setup.exe)
+[⬇️ **DOWNLOAD BETA v1.0.0-beta.3**](https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/download/v1.0.0-beta.3/DJ_Playlist_Companion_Demo_Setup.exe)
 
 ---
 
@@ -191,11 +191,11 @@ Saving changes to the Engine DJ database after the beta requires a **Pro license
 
 ## Windows 10 / 11 — 64-bit
 
-**Latest beta:** `v1.0.0-beta.2`
+**Latest beta:** `v1.0.0-beta.3`
 
 ### Direct Download
 
-[⬇️ **Download DJ Playlist Companion Beta**](https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/download/v1.0.0-beta.2/DJ_Playlist_Companion_Demo_Setup.exe)
+[⬇️ **Download DJ Playlist Companion Beta**](https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/download/v1.0.0-beta.3/DJ_Playlist_Companion_Demo_Setup.exe)
 
 Installer:
 
@@ -461,6 +461,6 @@ Every beta tester helps make the application better.
 
 Made for DJs who use Engine DJ.
 
-[⬇️ Download the Beta](https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/download/v1.0.0-beta.2/DJ_Playlist_Companion_Demo_Setup.exe)
+[⬇️ Download the Beta](https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/download/v1.0.0-beta.3/DJ_Playlist_Companion_Demo_Setup.exe)
 
 </div>
