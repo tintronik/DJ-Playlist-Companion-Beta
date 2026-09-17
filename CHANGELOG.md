@@ -2,6 +2,21 @@
 
 Alle nennenswerten Änderungen an den veröffentlichten Beta-Versionen.
 
+## [Unveröffentlicht] – in Arbeit
+
+**Neutrale Bezeichnung für die Tonart-Spalte**
+
+- Die Tonart-Spalte heißt in der Oberfläche jetzt **„Tonart"** (englisch: **„Key"**)
+  und die Filterleiste dazu **„Tonart wählen"**. Die angezeigten Werte (z. B. `8A`,
+  `8B`) bleiben unverändert.
+- Der Badge-Tooltip lautet jetzt **„Harmonische Tonart: …"**, der Sortierhinweis
+  **„Standard: Tonart & BPM"**.
+- Hintergrund: markenrechtliche Vorsicht – geschützte Fremdbezeichnungen werden im
+  Programm, in den Downloads und in der Dokumentation nicht mehr verwendet.
+
+> Hinweis: Die Screenshots in diesem Repository zeigen noch den bisherigen
+> Spaltenkopf. Sie werden mit der nächsten Beta-Version aktualisiert.
+
 ## [v1.0.0-beta.2] – erste veröffentlichte Beta
 
 **Neu: Testzeitraum statt Demo-Limit**
