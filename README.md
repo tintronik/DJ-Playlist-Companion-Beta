@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/Engine Compagnion Logo.svg" width="110" alt="DJ Playlist Companion Logo">
+  <img src="assets/logo_kreis_badge.png" width="128" alt="DJ Playlist Companion Logo">
 </div>
 
 # 🎧 DJ Playlist Companion
