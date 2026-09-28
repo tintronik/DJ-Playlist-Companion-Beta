@@ -2,7 +2,28 @@
 
 Alle nennenswerten Änderungen an den veröffentlichten Beta-Versionen.
 
-## [v1.0.0-beta.3] – aktuelle Beta
+## [v1.0.0-beta.4] – aktuelle Beta
+
+**Bewertung (Sterne) direkt in der Sammlung**
+
+- Jeder Track lässt sich jetzt **direkt in der Sammlung** mit Sternen bewerten und
+  umbewerten – ohne Umweg über einen Detaildialog. Die Bewertung wird wie gewohnt in die
+  Engine-DJ-Datenbank geschrieben, das automatische Backup greift vorher.
+- Der Auto-Fill des Set-Arrangers kann die Bewertung weiterhin als Filter nutzen.
+
+**Spalten ein- und ausblenden**
+
+- Die Spalten der **Sammlung** und des **Set-Arrangers** lassen sich jetzt ausblenden;
+  **„Standard wiederherstellen"** bringt das Ursprungslayout mit einem Klick zurück.
+  Das Menü öffnet der Spalten-Button in der Toolbar bzw. ein Rechtsklick auf den
+  Spaltenkopf.
+- Die Auswahl ist **dauerhaft gespeichert** und übersteht einen Neustart; ältere Layouts
+  werden automatisch übernommen und bleiben vollständig sichtbar.
+- Ausgeblendete Spalten sind reine Anzeige: **Filterkette, Sortierung und
+  Facetten-Zählung bleiben unverändert**, und die Spalte „Titel" lässt sich nicht
+  ausblenden.
+
+## [v1.0.0-beta.3] – vorherige Beta
 
 **Neutrale Bezeichnung für die Tonart-Spalte**
 

@@ -3,7 +3,12 @@
 Kurzablauf fuer jede neue Beta-Version. Ziel: **genau ein** Release, das GitHub als
 „Latest" fuehrt, und **kein** alter Download, der noch erreichbar ist.
 
-Stand: 17.09.2026 (`v1.0.0-beta.3` veroeffentlicht, `v1.0.0-beta.2` entfernt).
+Stand: 28.09.2026 (`v1.0.0-beta.4` veroeffentlicht, `v1.0.0-beta.3` entfernt).
+
+> Die Landingpage (`djplaylist.github.io`) verlinkt bewusst **`/releases/latest`** und
+> nennt keine Versionsnummer – solange genau ein Release existiert und dieses **nicht**
+> als Pre-release markiert ist, zeigt sie nach jeder neuen Beta automatisch die richtige
+> Datei. Feste Versionslinks muessen dann nirgends gepflegt werden.
 
 ---
 
@@ -25,6 +30,13 @@ cd "D:\Dokumente\GitHub\DJ-Playlist-Companion-Privat"
 python build_releases.py
 ```
 
+> **Vor dem Build die Build-Kennung bumpen.** In
+> `01_DJ_Playlist_Companion_Pro\backend\version.py` **und** in der Kopie
+> `02_Commercial_Edition\backend\version.py` steht `VERSION_BUILD` (z. B.
+> `"20260917-beta3"`). Diese Kennung liefert die App ueber `/version` aus; laeuft sie
+> der Release-Nummer hinterher, melden Tester die falsche Version.
+> Beispiel: fuer `v1.0.0-beta.5` → `VERSION_BUILD = "20260928-beta5"`.
+
 Ergebnis:
 
 - `03_Installer_Releases\DJ_Playlist_Companion_Demo_Setup.exe`
@@ -41,11 +53,13 @@ Get-FileHash -Algorithm SHA256 "03_Installer_Releases\DJ_Playlist_Companion_Demo
 
 ## 2. Dokumentation aktualisieren (Beta-Repo)
 
-- [ ] `release/RELEASE_NOTES_v<version>.md` anlegen
+- [ ] `release/RELEASE_NOTES_v<version>.md` anlegen (Vorlage: die Datei der Vorgaengerversion)
 - [ ] `release/SHA256SUMS.txt`: neue Version als „aktuell", Vorgaenger als „ersetzt" eintragen
-- [ ] `CHANGELOG.md`: neuen Abschnitt oben ergaenzen
-- [ ] `README.md`: beide Download-Buttons auf die neue Asset-URL umstellen
-      (`/releases/download/v<version>/DJ_Playlist_Companion_Demo_Setup.exe`)
+- [ ] `CHANGELOG.md`: neuen Abschnitt oben ergaenzen, beim Vorgaenger „aktuelle Beta" entfernen
+- [ ] `README.md`: Versionslabel (`Latest beta`, Download-Button-Text) aktualisieren.
+      Die Links zeigen bewusst auf **`/releases/latest`** – dann ist pro Release keine
+      Asset-URL zu pflegen
+- [ ] `BETA_TESTANLEITUNG.md`: Beispiel-Version in der Tabelle „Fehler melden" pruefen
 - [ ] Committen und nach `main` pushen
 
 ---
@@ -59,6 +73,7 @@ GitHub → Repo `DJ-Playlist-Companion-Beta` → **Releases → Draft a new rele
 - [ ] Asset: `DJ_Playlist_Companion_Demo_Setup.exe` hochladen
       (optional zusaetzlich `DJ_Playlist_Companion_Demo_Windows.zip`)
 - [ ] Beschreibung aus `release/RELEASE_NOTES_v<version>.md` einfuegen
+      (Links darin als **absolute URLs** – relative `../../`-Pfade laufen im Release ins Leere)
 - [ ] **„Set as the latest release" aktiv**
 - [ ] **„Set as a pre-release" NICHT aktiv**
 
