@@ -5,7 +5,9 @@ Kurzablauf fuer jede neue Beta-Version. Ziel: **genau ein** Release, das GitHub 
 
 Stand: 28.09.2026 (`v1.0.0-beta.4` veroeffentlicht, `v1.0.0-beta.3` entfernt).
 
-> Die Landingpage (`djplaylist.github.io`) verlinkt bewusst **`/releases/latest`** und
+> Die Landingpage (Repo `djplaylist.github.io`, live unter
+> **https://tintronik.github.io/djplaylist.github.io/** – nicht unter
+> `djplaylist.github.io`, das liefert 404) verlinkt bewusst **`/releases/latest`** und
 > nennt keine Versionsnummer – solange genau ein Release existiert und dieses **nicht**
 > als Pre-release markiert ist, zeigt sie nach jeder neuen Beta automatisch die richtige
 > Datei. Feste Versionslinks muessen dann nirgends gepflegt werden.
