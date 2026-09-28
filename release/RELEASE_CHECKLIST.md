@@ -18,7 +18,7 @@ Stand: 28.09.2026 (`v1.0.0-beta.4` veroeffentlicht, `v1.0.0-beta.3` entfernt).
 |---|---|
 | Sichtbarkeit des Beta-Repos | **Public** – bei privatem Repo sind Release-Downloads fuer Aussenstehende nicht abrufbar |
 | Landingpage | Repo `djplaylist.github.io`, Branch `main` (GitHub Pages) |
-| `gh` CLI | nicht erforderlich, die Web-Oberflaeche reicht |
+| `gh` CLI | optional – die Web-Oberflaeche reicht ebenfalls. Installiert unter `C:\Program Files\GitHub CLI\gh.exe` (v2.101.0); fuer die Nutzung einmalig `gh auth login` |
 | Build-Werkzeuge | Python 3 + PyInstaller, Inno Setup 6 (`ISCC.exe`) |
 
 ---
@@ -77,6 +77,29 @@ GitHub → Repo `DJ-Playlist-Companion-Beta` → **Releases → Draft a new rele
 - [ ] **„Set as the latest release" aktiv**
 - [ ] **„Set as a pre-release" NICHT aktiv**
 
+### Schneller Weg: dieselben Schritte per `gh` CLI
+
+Setzt Titel, Beschreibung, Assets und „latest" in einem Durchlauf (Voraussetzung:
+`gh auth login` wurde einmalig ausgefuehrt):
+
+```powershell
+$V = "v1.0.0-beta.5"                                        # Zielversion
+$R = "tintronik/DJ-Playlist-Companion-Beta"
+$SRC = "D:\Dokumente\GitHub\DJ-Playlist-Companion-Privat\03_Installer_Releases\DJ_Playlist_Companion_Demo_Setup.exe"
+$DOC = "D:\Dokumente\GitHub\DJ-Playlist-Companion-Beta\release"
+
+# Release anlegen (laedt Installer + Release-Text hoch, setzt „latest")
+gh release create $V $SRC --repo $R `
+  --title "DJ Playlist Companion $V" --notes-file "$DOC\RELEASE_NOTES_$V.md" --latest
+
+# Pruefsummen zusaetzlich als Asset
+gh release upload $V "$DOC\SHA256SUMS.txt" --repo $R --clobber
+
+# Bestehendes Release korrigieren (Text, Titel, latest):
+gh release edit $V --repo $R --title "DJ Playlist Companion $V" `
+  --notes-file "$DOC\RELEASE_NOTES_$V.md" --latest --prerelease=false
+```
+
 > Ein Release, das als *Pre-release* veroeffentlicht wird, zaehlt nicht als „latest".
 > Gibt es nur Pre-Releases, antwortet
 > `…/releases/latest` mit **404** – und damit laufen die Download-Buttons der
@@ -109,6 +132,18 @@ curl.exe -s -o NUL -w "%{http_code}`n" -r 0-0 -L https://github.com/tintronik/DJ
 
 # 3) alte Version muss 404 liefern
 curl.exe -s -o NUL -w "%{http_code}`n" -L https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/download/v<alte-version>/DJ_Playlist_Companion_Demo_Setup.exe
+
+# 4) Downloads ueber /releases/latest/... (genau der Weg der Landingpage)
+curl.exe -s -o NUL -w "%{http_code}`n" -L https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/latest/download/DJ_Playlist_Companion_Demo_Setup.exe
+```
+
+Zusaetzlich per `gh` (falls angemeldet):
+
+```powershell
+gh api repos/tintronik/DJ-Playlist-Companion-Beta/releases/latest --jq .tag_name   # muss v<version> sein
+gh release view v<version> --repo tintronik/DJ-Playlist-Companion-Beta --json name,isPrerelease,isDraft,assets
+gh release download v<version> --repo tintronik/DJ-Playlist-Companion-Beta --pattern SHA256SUMS.txt --dir $env:TEMP\ghchk --clobber
+Get-FileHash "$env:TEMP\ghchk\SHA256SUMS.txt"    # muss dem lokalen release\SHA256SUMS.txt entsprechen
 ```
 
 - [ ] Landingpage im **Inkognito-Fenster** oeffnen und einen Download-Button klicken
@@ -137,3 +172,9 @@ curl.exe -s -o NUL -w "%{http_code}`n" -L https://github.com/tintronik/DJ-Playli
   fuer den Upload immer die Datei direkt im `03_Installer_Releases`-Ordner verwenden
   (Groesse und SHA256 gegen `release/SHA256SUMS.txt` pruefen).
 - Release-Downloads immer ausgeloggt testen.
+- `gh auth login` verlangt beim Einlesen eines Tokens die Scopes `repo` **und**
+  `read:org`. Das im Windows-Anmeldeinformationsspeicher hinterlegte Git-Token von
+  Git Credential Manager hat `read:org` nicht und wird deshalb abgelehnt
+  (`error validating token: missing required scope 'read:org'`). Deshalb entweder
+  `gh auth login` **interaktiv im Browser** ausfuehren oder einen Token mit beiden
+  Scopes erzeugen (`gh auth login --with-token`).
