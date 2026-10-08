@@ -10,7 +10,7 @@
 
 Beta-Testversion für **Windows 10 & 11** · **Engine DJ** · **Denon DJ**
 
-[⬇️ **DOWNLOAD BETA v1.0.0-beta.4**](https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/latest)
+[⬇️ **DOWNLOAD BETA v1.0.0-beta.5**](https://github.com/tintronik/DJ-Playlist-Companion-Beta/releases/latest)
 
 ---
 

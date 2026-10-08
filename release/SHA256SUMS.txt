@@ -12,7 +12,17 @@ Get-FileHash -Algorithm SHA256 ".\DJ_Playlist_Companion_Demo_Setup.exe" |
 
 Der ausgegebene `Hash`-Wert muss dem Eintrag unten entsprechen.
 
-## v1.0.0-beta.4 (aktuell)
+## v1.0.0-beta.5 (aktuell)
+
+| Datei | Größe | SHA256 |
+|---|---|---|
+| `DJ_Playlist_Companion_Demo_Setup.exe` | 89.067.750 Bytes (84,9 MB) | ` A0891C05ED22075CEA6272EB55F7766F43D3F8B3AF5E99156408E2AEAD1378F0` |
+
+Erstellt am 10.08.2026 aus dem Build der Version `v1.0.0-beta.5`, veröffentlicht am
+10.08.2026. Die interne Build-Kennung des Programms lautet `20261008-beta5`.
+
+
+## v1.0.0-beta.4 (ersetzt)
 
 | Datei | Größe | SHA256 |
 |---|---|---|

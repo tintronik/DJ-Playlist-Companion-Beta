@@ -2,7 +2,20 @@
 
 Alle nennenswerten Änderungen an den veröffentlichten Beta-Versionen.
 
-## [v1.0.0-beta.4] – aktuelle Beta
+## [v1.0.0-beta.5] – aktuelle Beta
+
+**Drag and Drop für Genre Pflege**
+
+- Jeder Track lässt sich jetzt im Genre Bereich auf ein Genre Label ziehen. 
+- Der Auto-Fill des Set-Arrangers kann die Bewertung weiterhin als Filter nutzen.
+
+**Markierung von Tracks im Set-Arranger**
+
+- Es lassen sich mehrere Tracks mittels Shift-Taste + Klick im **Set-Arrangers** markieren und auch fixieren oder entfernen
+  **„Standard wiederherstellen"** bringt das Ursprungslayout mit einem Klick zurück.
+- Die Optimierung der Tracklist zeigt durch optimiertes Feedback ihren Bearbeitungsstand
+
+## [v1.0.0-beta.4] – vorherige Beta
 
 **Bewertung (Sterne) direkt in der Sammlung**
 
