@@ -1,4 +1,4 @@
-# DJ Playlist Companion – v1.0.0-beta.4
+# DJ Playlist Companion – v1.0.0-beta.5
 
 **Current beta** for Windows 10 / 11 (64-bit).
 
@@ -25,12 +25,12 @@ Get-FileHash -Algorithm SHA256 ".\DJ_Playlist_Companion_Demo_Setup.exe"
 
 ## 🆕 New in this version
 
-- **Drag and Drop Tracks on Genre Labels
+- **Drag and Drop** Tracks on Genre Labels
 - **Set-Arranger** Adding tracks to the Setattanger is always done under Tagged Song
-    Marking of several tracks and their fixation in the Set-Arranger optimized
+- **Set-Arranger** Marking of several tracks and their fixation in the Set-Arranger optimized
 - **Set-Arranger** The optimization of the tracklist shows its processing status through optimized feedback
-- **Note for bug reports:** this build reports the internal build ID `20261008-beta4`.
-  That ID belongs to the beta.4 build – please still quote `1.0.0-beta.4` in your reports.
+- **Note for bug reports:** this build reports the internal build ID `20261008-beta5`.
+  That ID belongs to the beta.5 build – please still quote `1.0.0-beta.5` in your reports.
 
 ## ✨ Features
 
