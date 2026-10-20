@@ -15,7 +15,7 @@
 |---|---|---|
 | `DJ_Playlist_Companion_Demo_Setup.exe` | 89,067,750 bytes (84.9 MB) | Windows installer, **no** administrator rights required |
 
-**SHA256:** `A0891C05ED22075CEA6272EB55F7766F43D3F8B3AF5E99156408E2AEAD1378F0`
+**SHA256:** `2A3761F8A2383E46E50F05FF4B7604DBD0F070C46E59FA44789D2DE3A53AADEF`
 
 Verify your download with:
 
@@ -25,12 +25,14 @@ Get-FileHash -Algorithm SHA256 ".\DJ_Playlist_Companion_Demo_Setup.exe"
 
 ## 🆕 New in this version
 
-- **Drag and Drop** Tracks on Genre Labels
+- **Drag and Drop Tracks on Genre Labels
 - **Set-Arranger** Adding tracks to the Setattanger is always done under Tagged Song
-- **Set-Arranger** Marking of several tracks and their fixation in the Set-Arranger optimized
-- **Set-Arranger** The optimization of the tracklist shows its processing status through optimized feedback
-- **Note for bug reports:** this build reports the internal build ID `20261008-beta5`.
-  That ID belongs to the beta.5 build – please still quote `1.0.0-beta.5` in your reports.
+    Marking of several tracks and their fixation in the SeT Arranger optimized
+- The column selection is **stored permanently** and survives a restart. Hidden columns
+  are display-only: filtering, sorting and facet counting stay untouched – and the
+  `Title` column cannot be hidden.
+- **Note for bug reports:** this build reports the internal build ID `20260917-beta3`.
+  That ID belongs to the beta.4 build – please still quote `1.0.0-beta.4` in your reports.
 
 ## ✨ Features
 
