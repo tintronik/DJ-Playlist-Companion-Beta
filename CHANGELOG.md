@@ -2,7 +2,32 @@
 
 Alle nennenswerten Änderungen an den veröffentlichten Beta-Versionen.
 
-## [v1.0.0-beta.5] – aktuelle Beta
+## [v1.0.0-beta.6] – aktuelle Beta
+
+**Smart Match & akustische Ähnlichkeit (Neu)**
+
+- Der **Match-Button** öffnet jetzt das rechte **Smart-Match-Panel**: harmonische Tonart, BPM-Toleranz und ein neuer **akustischer Klang-Match** an einem Ort – live aktualisiert, mit Vorhören und Übernahme per Drag & Drop oder „+ Set".
+- **100 % lokal und offline:** 100-dimensionaler Klangvektor aus deinen MP3-Dateien (Klangfarbe, Harmonik, Spektralmerkmale) über einen In-Memory-Index – kein Abo, keine Cloud.
+- **Neue Zusatzfilter im Panel:** Genre, Charakter, Bewertung, BPM-Toleranz und „nicht im Set".
+- **Hintergrund-Indizierung** der Bibliothek mit Fortschrittsanzeige – die Trefferliste füllt sich, während du weiterarbeitest.
+- Genauere Ergebnisse durch MP3-Frame-basierte Offset-Erkennung; Klang-Caches verfallen bei Dateiänderungen automatisch.
+
+**TrackDNA V2 im Set-Arranger-AutoFill**
+
+- Der Auto-Fill bewertet jetzt zusätzlich, **wie ein Track klingt** (TrackDNA V2: 5 Klang-Charakter-Dimensionen, z. B. „Peak Weapon", „Deep Atmosphere"), neben der historischen Set-Position (V1). Standard aktiv (Gewichte 0.10/0.10); mit `use_dna_v2=False` jederzeit abschaltbar.
+
+**Stabilität & Datenpflege**
+
+- SQLite-Seitecars werden automatisch bereinigt und History-Orphans aus der Engine-Datenbank ferngehalten – dauerhaft saubere Datenbanken.
+- Die Backup-Bereinigung sortiert nach **Änderungszeit** statt nach Dateiname.
+- Die Kopfzeile des Set-Arrangers bricht um, statt die Buttons abzuschneiden (auch in schmalen Fenstern).
+
+**Build**
+
+- Interne Build-Kennung dieses Releases: `20261106-beta6` (deckungsgleich mit der Release-Nummer).
+
+
+## [v1.0.0-beta.5] – vorherige Beta
 
 **Drag and Drop für Genre Pflege**
 
